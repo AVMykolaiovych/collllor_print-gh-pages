@@ -2,29 +2,50 @@
 @import "fonts"
 @import "libs"
 @import "vars"
+@import "../libs/fontello/fontello"
+
+*
+	box-sizing: border-box
 
 *::-webkit-input-placeholder
-	color: #666
-	opacity: 1
+	color: $black
+	opacity: .6
+
+*:focus::-webkit-input-placeholder
+	opacity: 0
+	transition: opacity .3s ease
 
 *:-moz-placeholder
-	color: #666
-	opacity: 1
+	color: $black
+	opacity: .6
+
+*:focus:-moz-placeholder
+	opacity: 0
+	transition: opacity .3s ease
 
 *::-moz-placeholder
-	color: #666
-	opacity: 1
+	color: $black
+	opacity: .6
+
+*:focus::-moz-placeholder
+	opacity: 0
+	transition: opacity .3s ease
 
 *:-ms-input-placeholder
-	color: #666
-	opacity: 1
+	color: $black
+	opacity: .6
+
+*:focus:-ms-input-placeholder
+	opacity: 0
+	transition: opacity .3s ease
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid
-	color: #666
+	color: $input_color
+
 body input:required:valid,
 body textarea:required:valid
-	color: #666
+	color: $input_color
 
 html, body
 	height: 100%
@@ -33,13 +54,84 @@ body
 	font-size: 16px
 	min-width: 320px
 	position: relative
-	line-height: 1.75
-	font-family: $default-font
+	line-height: 1
+	font-family: $helvetica_light
 	overflow-x: hidden
+	min-height: 100vh
+	height: auto
+
+h1, h2, h3
+	padding: 0
+	margin: 0
 
 .img-responsive
 	display: block
 	max-width: 100%
 	height: auto
+
+.inline-right
+	text-align: right
+
+/*Header styles*/
+.header 
+	background: $white
+	position: relative
+	&__logo 
+		line-height: 71px
+	&__form
+		display: inline-block
+		position: relative
+		font-family: Arial, sans-serif
+		color: $font_color
+		&-label
+			font-size: .938em
+			text-transform: uppercase
+			line-height: 71px
+			margin-right: 8px
+		&-subscribe
+			display: none
+		&-input 
+			padding-left: 35px
+			width: 235px
+			height: 30px
+			font-size: .875em
+			color: $font_color
+			border: 1px solid rgb(226, 222, 222)
+			background-image: url(../img/icon-mail.svg)
+			background-position: 10px 7.5px
+			background-repeat: no-repeat
+			&:active, &:focus
+				outline: 0
+		&-button 
+			position: absolute
+			padding: 0
+			height: 28px
+			line-height: 27px
+			width: 24px
+			top: 22px
+			left: 304px
+			border: none
+			background-color: $white
+			&:active, &:focus, &:hover
+				outline: 0
+		&-btn 
+			font-size: .813em
+			color: rgb(252, 90, 73)
+	&__heading
+		padding-top: 55px
+		color: rgba(60, 59, 59, .7)
+		font-family: $helvetica_regular
+		font-size: 2.688em	
+		letter-spacing: 2px	
+	&__link
+		padding-top: 75px
+		color: rgba(60, 59, 59, .7)
+		font-family: $helvetica_light
+		font-size: 2.25em	
+		letter-spacing: 2px		
+		&:hover
+
+/*Enf of header styles*/
+
 
 @import "media" // Всегда в конце
