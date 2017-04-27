@@ -1,5 +1,3 @@
-$(function() {
-
-	// Custom JS
-
+$(document).ready(function(){
+	$(":checkbox").labelauty();
 });

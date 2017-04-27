@@ -15,10 +15,12 @@
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
 	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link href="libs/jquery-labelauty/jquery-labelauty.css" rel="stylesheet">
 	<!-- 	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png"> -->
 	<link rel="stylesheet" href="css/main.min.css">
+
 </head>
 
 <body>
@@ -48,11 +50,15 @@
 				<div class="col-xs-4">
 					<a class="header__link" href="javascript:void(0);">Sign Up Now</a>
 					<form class="header__check" action="#">
-							<input class="header__check-input" id="check1" type="checkbox" name="check" value="check1" checked>
-							<label class="header__check-label" for="check1">Printing services</label>
-							<br>
-							<input class="header__check-input" id="check2" type="checkbox" name="check" value="check2">
-							<label class="header__check-label" for="check2">Design an Creative services</label>
+						<input class="header__check-input" type="checkbox">
+						<span class="header__check-span">
+							Printing services
+						</span>
+						<br>
+						<input class="header__check-input" type="checkbox">
+						<span class="header__check-span">
+							Design an Creative services
+						</span>
 					</form>
 				</div>
 			</div>
@@ -117,6 +123,7 @@
 		</div>
 	</footer>
 </div>
+
 	
 	<script src="js/scripts.min.js"></script>
 
