@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a3c3b5a-21da-46a9-9c52-87f074d5385d" name="Default" comment="js: add registration form">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/Fontello/fontello.eot" afterPath="$PROJECT_DIR$/app/fonts/Fontello/fontello.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/Fontello/fontello.ttf" afterPath="$PROJECT_DIR$/app/fonts/Fontello/fontello.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/Fontello/fontello.woff" afterPath="$PROJECT_DIR$/app/fonts/Fontello/fontello.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/Fontello/fontello.woff2" afterPath="$PROJECT_DIR$/app/fonts/Fontello/fontello.woff2" />
+    <list default="true" id="9a3c3b5a-21da-46a9-9c52-87f074d5385d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/Fontello/fontello.svg" afterPath="$PROJECT_DIR$/app/fonts/Fontello/fontello.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/scripts.min.js" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/libs/fontello/fontello.css" afterPath="$PROJECT_DIR$/app/libs/fontello/fontello.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_media.sass" afterPath="$PROJECT_DIR$/app/sass/_media.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.sass" afterPath="$PROJECT_DIR$/app/sass/main.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,8 +43,8 @@
       <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="203" column="16" lean-forward="true" selection-start-line="203" selection-start-column="16" selection-end-line="203" selection-end-column="16" />
+            <state relative-caret-position="360">
+              <caret line="201" column="21" lean-forward="true" selection-start-line="201" selection-start-column="21" selection-end-line="201" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -305,6 +293,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -400,7 +389,7 @@
       <workItem from="1493310122861" duration="16000" />
       <workItem from="1493333067540" duration="4594000" />
       <workItem from="1493397860393" duration="39000" />
-      <workItem from="1493397980656" duration="16456000" />
+      <workItem from="1493397980656" duration="16637000" />
     </task>
     <task id="LOCAL-00001" summary="index: refactor code">
       <created>1493240981055</created>
@@ -444,11 +433,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493337653480</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactor code">
+      <created>1493414783735</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1493414783735</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36534000" />
+    <option name="totallyTimeSpent" value="36715000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,7 +494,8 @@
     <MESSAGE value="main.sass: add registration form styles" />
     <MESSAGE value="media: fix size screen" />
     <MESSAGE value="js: add registration form" />
-    <option name="LAST_COMMIT_MESSAGE" value="js: add registration form" />
+    <MESSAGE value="refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -603,8 +600,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="203" column="16" lean-forward="true" selection-start-line="203" selection-start-column="16" selection-end-line="203" selection-end-column="16" />
+        <state relative-caret-position="360">
+          <caret line="201" column="21" lean-forward="true" selection-start-line="201" selection-start-column="21" selection-end-line="201" selection-end-column="21" />
           <folding />
         </state>
       </provider>
