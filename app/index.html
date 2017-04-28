@@ -68,46 +68,25 @@
 						<form action="/" method="post">
 							<div class="header__row">
 								<div class="header__wrap">
-									<label class="header__lab" >
-										Company Name (DBA)<span class="req">*</span>
-									</label>
-									<input class="header__info" type="text" required autocomplete="off"/>
+									<input class="header__info" type="text"  placeholder="Company Name (DBA)*" name="companyname" required autocomplete="off"/>
 								</div>
 								<div class="header__wrap">
-									<label class="header__lab">
-										First Name<span class="req">*</span>
-									</label>
-									<input class="header__info" type="text" required autocomplete="off" />
+									<input class="header__info header__info-firstname" type="text" placeholder="First Name*" name="firstname" required autocomplete="off" />
 								</div>
 								<div class="header__wrap">
-									<label class="header__lab">
-										Last Name<span class="req">*</span>
-									</label>
-									<input class="header__info" type="text" required autocomplete="off"/>
+									<input class="header__info header__info-lastname" type="text" placeholder="Last Name*" name="lastname" required autocomplete="off"/>
 								</div>
 								<div class="header__wrap">
-									<label class="header__lab">
-										Email<span class="req">*</span>
-									</label>
-									<input class="header__info" type="email" required autocomplete="off"/>
+									<input class="header__info" type="email" placeholder="Email*" name="email" required autocomplete="off"/>
 								</div>
 								<div class="header__wrap">
-									<label class="header__lab">
-										Phone<span class="req">*</span>
-									</label>
-									<input class="header__info" type="text" required autocomplete="off"/>
+									<input class="header__info" type="tel" placeholder="Phone*" name="phone" required autocomplete="off"/>
 								</div>
 								<div class="header__wrap">
-									<label class="header__lab">
-										City<span class="req">*</span>
-									</label>
-									<input class="header__info" type="text"required autocomplete="off"/>
+									<input class="header__info" type="text" placeholder="City*" name="city" required autocomplete="off"/>
 								</div>
 								<div class="header__wrap">
-									<label class="header__lab">
-										State<span class="req">*</span>
-									</label>
-									<select name="state" required id="field-state">
+									<select class="header__info header__info-dropdown" name="state" required id="field-state">
 									<option value="">&nbsp;</option>
 									<option value="AL">Alabama</option>
 									<option value="AK">Alaska</option>
@@ -169,34 +148,21 @@
 									</select>
 								</div>
 								<div class="header__wrap">
-									<label class="header__lab">
-										Zipcode<span class="req">*</span>
-									</label>
-									<input class="header__info" type="text" required/>
+									<input class="header__info header__info-down" type="text" placeholder="Zipcode*" name="zipcode" required/>
 								</div>
 							</div>
-							<!--<ul class="header__group">-->
 								<a class="header__sign" href="#login">Next</a>
-							<!--</ul>-->
 						</form>
 					</div>
 					<div id="login">
 						<form action="/" method="post">
 							<div class="header__wrap">
-								<label class="header__lab">
-									Tell us about your company<span class="req">*</span>
-								</label>
-								<textarea class="header__info" name="about" required></textarea>
+								<textarea class="header__info" name="about" placeholder="Tell us about your company*" required></textarea>
 							</div>
 							<div class="header__wrap">
-								<label class="header__lab">
-									Website<span class="req">*</span>
-								</label>
-								<input class="header__info" type="text" required autocomplete="off"/>
+								<input class="header__info" type="text" placeholder="Website" required autocomplete="off"/>
 							</div>
-							<!--<ul class="header__group">-->
 								<a class="header__sign" href="#signup">Apply</a>
-							<!--</ul>-->
 						</form>
 					</div>
 				</div>
